@@ -50,3 +50,29 @@ table {
 	border-spacing: 0;
 }
 
+body { width:960px; margin:0 auto; position:absolute; }
+
+#main-menu {
+	font-family:helvetica;
+	font-size:14px;
+	position:relative;
+	left:200px;
+	}
+
+h1 {
+	font-family:helvetica-bold;
+	font-size:17px;
+	color:brown;
+	position:relative;
+	left:200px;
+	}
+	
+p {
+	font-family:helvetica;
+	font-size:14px;
+	color:lightbrown;
+	position:relative;
+	top:200px;
+	left:200px;
+	}
+
