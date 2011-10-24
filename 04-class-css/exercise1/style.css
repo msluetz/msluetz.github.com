@@ -48,38 +48,39 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
-}
 
-body { width:960px; margin:0 auto; position:relative; }
+
+}
+body {
+	margin:0 auto;
+	width:960px;
+	position:relative;
+	top:90px;
+	
+	}
 
 #main-content {
-	position:absolute;
-	left:100px;
-	}
-	
-h1 {
-	font-family:helvetica-bold;
-	color:black;
-	font-size:19px;
-	}
-	
-h2 {
-	font-family:helvetica;
-	color:lightgrey;
-	}
-	
-img {
-	float:left;
-	margin:10px;
-	padding:10px;
-	}
-
-p	{
-	font-family:helvetica;
+	font-family: helvetica;
 	color:black;
 	font-size:15px;
 	}
 	
+h1 {
+	font-family: helvetica-bold;
+	font-size:25px;
+	}
+	
+h2 {
+	color: #999;
+	}
+	
+
+	
+article {
+	width:50%;
+	float:left;
+	}
+
 
 	
 	
