@@ -77,20 +77,21 @@ nav#top-nav {
 	
 nav#main-menu {
 	height:30px;
-	background-color:black;
+	background-color:#744918;
 	}
 	
 nav#main-menu ul li {
 	display:block;
 	float:left;
 	padding:0 5px;
+
 	}
 	
 nav#main-menu ul li a {
 	display:block;
 	color:white;
 	padding:5px 5px;
-	background-color:blue;
+	text-decoration:none;
 	}
 	
 div#content {
@@ -98,16 +99,22 @@ div#content {
 	width:550px;
 	padding:50px 20px;
 	}
+
+h1, h2 {
+	color:#744918;
+	}
 	
 aside#sidebar {
 	float:right;
 	width:220px;
 	padding:50px 10px;
+	color:#744918;
 	}
+
 	
 footer#site-footer {
 	clear:both;
-	background-color:black;
+	background-color:#744918;
 	color:white;
 	padding:10px 0px;
 	}
