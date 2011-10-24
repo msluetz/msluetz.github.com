@@ -68,6 +68,8 @@ body {
 h1 {
 	font-family: helvetica-bold;
 	font-size:25px;
+	padding:5px;
+	margin:5px;
 	}
 	
 h2 {
@@ -77,11 +79,20 @@ h2 {
 
 	
 article {
-	width:50%;
+	width:45%;
 	float:left;
 	}
 
-
+img {
+	float:left;
+	padding:5px;
+	margin:5px;
+	}
+	
+p {
+	padding:5px;
+	margin:5px;
+	}
 	
 	
 	
