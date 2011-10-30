@@ -105,9 +105,16 @@ div#content {
 	line-height:1.2em;
 	}
 
+
 h1, h2 {
 	color:#744918;
 	font-size:15px;
+	
+	}
+	
+#page h1 {
+	font-family:bodoni-bolditalic;
+	font-size:30px;
 	
 	}
 	
