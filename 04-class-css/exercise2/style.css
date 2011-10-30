@@ -52,7 +52,8 @@ table {
 
 body { 
       width:960px; 
-      margin:0 auto; 
+      margin:0 auto;
+      font-family:helvetica;
       }
       
 header#site-header {
@@ -96,12 +97,15 @@ nav#main-menu ul li a {
 	
 div#content {
 	float:left;
-	width:550px;
+	width:500px;
 	padding:50px 20px;
+	font-size:13px;
+	color:#a0a0a0;
 	}
 
 h1, h2 {
 	color:#744918;
+	font-size:16px;
 	}
 	
 aside#sidebar {
