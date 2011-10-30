@@ -106,6 +106,7 @@ div#content {
 h1, h2 {
 	color:#744918;
 	font-size:16px;
+	
 	}
 	
 aside#sidebar {
@@ -113,6 +114,7 @@ aside#sidebar {
 	width:220px;
 	padding:50px 10px;
 	color:#744918;
+	
 	}
 
 	
@@ -120,6 +122,23 @@ footer#site-footer {
 	clear:both;
 	background-color:#744918;
 	color:white;
+	font-size:11px;
 	padding:10px 0px;
+	
 	}
+
+#footer-contact {
+	display:block;
+	width:150px;
+	
+	}
+	
+#footer-follow ul li {
+	display:block;
+	float:right;
+	padding:0 5px;
+
+	}
+	
+
 
