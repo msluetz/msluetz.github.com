@@ -79,6 +79,7 @@ nav#top-nav {
 nav#main-menu {
 	height:30px;
 	background-color:#744918;
+	font-size:13px;
 	}
 	
 nav#main-menu ul li {
@@ -101,16 +102,19 @@ div#content {
 	padding:50px 20px;
 	font-size:13px;
 	color:#a0a0a0;
+	line-height:1.2em;
 	}
 
 h1, h2 {
 	color:#744918;
-	font-size:16px;
+	font-size:15px;
 	
 	}
 	
 aside#sidebar {
-	float:right;
+	position:relative;
+	left:600px;
+	top:-370px;
 	width:220px;
 	padding:50px 10px;
 	color:#744918;
@@ -119,7 +123,7 @@ aside#sidebar {
 
 	
 footer#site-footer {
-	clear:both;
+	clear:left;
 	background-color:#744918;
 	color:white;
 	font-size:11px;
