@@ -109,13 +109,13 @@ body {
 	}
 	
 #main-content {
-	float:left;
 	width:500px;
-	padding:10px 10px;
-	font-size:13px;
+	padding:150px 0px;
+	font-size:15px;
 	color:gray;
-	line-height:1.4em;
+	line-height:1.2em;
 	}
+	
 	
 #main-content h1,h2{
 	color:black;
