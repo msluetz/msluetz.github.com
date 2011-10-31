@@ -76,7 +76,6 @@ header#site-header {
 	width:340px;
 	height:150px;
 	background:url(images/logo.png) no-repeat left top;
-
 	}
 	
 nav#top-nav {
@@ -104,10 +103,10 @@ nav#main-menu ul li {
 nav#main-menu ul li a {
 	display:block;
 	color:white;
-	padding:5px 5px;
+	padding:6px 5px;
 	text-decoration:none;
-
 	}
+	
 	
 #main-menu ul li a:hover {
 	color:#b7c850;
@@ -121,7 +120,7 @@ div#content {
 #page {
 	float:left;
 	width:500px;
-	padding:50px 20px;
+	padding:30px 0px;
 	font-size:13px;
 	color:#a0a0a0;
 	line-height:1.4em;
@@ -160,7 +159,6 @@ footer#site-footer {
 	
 	}
 	
-
 #footer-contact {
 	display:block;
 	width:150px;
@@ -176,18 +174,18 @@ footer#site-footer {
 	font-size:13px;
 	}
 	
-#footer-follow ul li {
-	display:block;
-	float:right;
-	padding:10px 5px;
-	}
-	
 #footer-follow h1 {
 	position:absolute;
 	bottom:50px;
 	right:100px;
 	color:tan;
 	font-size:13px;
+	}
+	
+#footer-follow ul li {
+	display:block;
+	float:right;
+	padding:10px 5px;
 	}
 	
 
