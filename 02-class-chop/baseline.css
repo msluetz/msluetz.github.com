@@ -78,6 +78,7 @@ body {
 	margin:0 auto;
 	width:960px;
 	font-family:bodoni;
+	position:relative;
 	}
 
 #site-header h1 {
@@ -121,5 +122,15 @@ body {
 	color:black;
 	font-size:19px;
 	padding-bottom:5px;
+	}
+	
+article {
+	float:left;
+	width:45%;
+	}
+	
+img {
+	float:left;
+	padding:5px;
 	}
 	
