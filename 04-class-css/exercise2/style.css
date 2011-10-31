@@ -115,7 +115,7 @@ nav#main-menu ul li a {
 	
 	
 div#content {
-	padding:50px 20px;
+	padding:20px 50px;
 	}
 	
 #page {
@@ -151,28 +151,43 @@ aside#sidebar {
 	
 	}
 
-	
 footer#site-footer {
 	clear:both;
 	position:relative;
 	height:80px;
-	color:white;
-	font-size:11px;
 	padding:10px 0px;
 	background-color:#744918;
 	
 	}
+	
 
 #footer-contact {
 	display:block;
 	width:150px;
+	padding:0px 50px;
+	color:tan;
+	font-size:10px;
+	font-family:helvetica-light;
+	}
 
+#footer-contact h1 {
+	color:tan;
+	font-family:helvetica;
+	font-size:13px;
 	}
 	
 #footer-follow ul li {
 	display:block;
 	float:right;
-	padding:0 5px;
+	padding:10px 5px;
+	}
+	
+#footer-follow h1 {
+	position:absolute;
+	bottom:50px;
+	right:100px;
+	color:tan;
+	font-size:13px;
 	}
 	
 
