@@ -113,6 +113,7 @@ nav#main-menu ul li a {
 	color:#b7c850;
 	}
 	
+	
 div#content {
 	float:left;
 	width:500px;
@@ -122,20 +123,21 @@ div#content {
 	line-height:1.4em;
 	}
 
-div#content-wrapper {
-	background-color:black;
-	}
-
 h1, h2 {
 	color:#744918;
 	font-size:15px;
-	
+	padding-bottom:5px;
 	}
+	
 	
 #page h1 {
 	font-family:bodoni-bolditalic;
 	font-size:30px;
 	
+	}
+	
+#page p {
+	padding-bottom:10px;
 	}
 	
 aside#sidebar {
@@ -151,10 +153,10 @@ footer#site-footer {
 	clear:both;
 	position:relative;
 	height:80px;
-	background-color:#744918;
 	color:white;
 	font-size:11px;
 	padding:10px 0px;
+	background-color:#744918;
 	
 	}
 
