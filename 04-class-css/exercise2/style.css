@@ -54,11 +54,14 @@ body {
       width:960px; 
       margin:0 auto;
       font-family:helvetica;
+      background-color:#ecf3d4;
+      
       }
       
 header#site-header {
 	position:relative;
-	height:80px;
+	height:120px;
+
 	}
 
 #site-header h1 a {
@@ -68,18 +71,22 @@ header#site-header {
 	width:340px;
 	height:150px;
 	background:url(images/logo.png) no-repeat left top;
+
 	}
 	
 nav#top-nav {
 	position: absolute;
 	right:0px;
 	top:5px;
+	font-size:10px;
+
 	}
 	
 nav#main-menu {
 	height:25px;
 	background-color:#744918;
 	font-size:13px;
+
 	}
 	
 nav#main-menu ul li {
@@ -103,6 +110,8 @@ div#content {
 	font-size:13px;
 	color:#a0a0a0;
 	line-height:1.2em;
+	background-color:white;
+
 	}
 
 
@@ -141,14 +150,13 @@ footer#site-footer {
 #footer-contact {
 	display:block;
 	width:150px;
-	
+
 	}
 	
 #footer-follow ul li {
 	display:block;
 	float:right;
 	padding:0 5px;
-
 	}
 	
 
