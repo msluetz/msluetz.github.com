@@ -118,6 +118,7 @@ body {
 	font-size:15px;
 	color:gray;
 	line-height:1.2em;
+
 	}
 	
 	
@@ -129,8 +130,8 @@ body {
 	
 article {
 	float:left;
-	width:50%;
-	
+	width:45%;
+
 	}
 	
 img {
@@ -140,11 +141,12 @@ img {
 	
 .post-footer {
 	clear:both;
-	padding:20px 0px;
-	position:relative;
+	position:absolute;
 	}
 	
 .copyright {
-	position:relative;
-	left:10px;
+	clear:both;
+	position:absolute;
+	bottom:0px;
+	left:500px;
 	}
