@@ -12,48 +12,49 @@
 
   <header id='site-header'>
   <h1>Mallory Sluetz</h1>
-  <h2>Designer.Artist</h2>
   </header>
-  <nav id='main-nav'>
+  
+  <div id='main-nav'>
+  <h3><a href="#">DESIGN</a><h/3>
+  <div>
   <ul>
-  <li><a href='#'>DESIGN</a></li>
-  <li><a href='#'>Cradle to Grave</a></li>
-  <li><a href='#'>100 Planes</a></li>
-  <li><a href='#'>How to Pirouette</a></li>
-  <li><a href='#'>Legorreta</a></li>
-  <li><a href='#'>Sevilla, Espana</a></li>
-  <li><a href='#'>Onomatopeia</a></li>
-  <li><a href='#'>Recipe Cards</a></li>
-  <li><a href='#'>The Lottery Ticket</a></li>
-  <li><a href='#'>Dan Butterworth</a></li>
-  <li><a href='#'>Environmental Type</a></li>
-  <li><a href='#'>Type I Book</a></li>
-  <li><a href='#'>HSSC Print Ad</a></li>
-  <li><a href='#'>FINE ARTS</a></li>
-  <li><a href='#'>Sargent's Garden Study</a></li>
-  <li><a href='#'>Monochromatic</a></li>
-  <li><a href='#'>Goards</a></li>
-  <li><a href='#'>Tin Animals</a></li>
-  <li><a href='#'>Retro Fan</a></li>
-  <li><a href='#'>Lemon Study</a></li>
-  <li><a href='#'>Lines + Form</a></li>
-  <li><a href='#'>Cash Cow</a></li>
-  <li><a href='#'>contact</a></li>
-  </ul>
-  </nav>
+  	<li>Cradle to Grave</li>
+  	<li>100 Planes</li>
+  	<li>How to Pirouette</li>
+  	<li>Legorreta</li>
+  	<li>Sevilla, Espana</li>
+  	<li>The Lottery Ticket</li>
+	<li>Dan Butterworth</li>
+  	<li>Type I Book</li>
+  	<li>HSSC Print Ad</li>
+  	</ul>
+  	</div>
+  	
+  <h3><a href="#">FINE ARTS</a><h/3>
+  <div>
+  <ul>
   
-  <section id='main-content'>
-  <article>
-  <img src="images/tucan.jpg" alt="Tucan" />
-  
-  <article>
-  <img src="images/waterfall.jpg" alt="Waterfall" />
-  </article>
-  
+  	<li>Painting Final</li>
+  	<li>Monochromatic</li>
+  	<li>Goards</li>
+  	<li>Retro Fan</li>
+  	<li>Lemon Study</li>
+  	<li>Lines + Form</li>
+  	<li>Film Photography</li>
+  	</ul>
+  </div>
 
-   
-
-  </section>
+</div>
+  
+<script>
+  $(function() {
+      $("#dropdowns > div").hide();
+      $("#dropdowns h3").click(function() {
+        $("#dropdowns > div:visible").slideUp();
+        $(this).next().slideDown();
+       });
+   });
+</script>
   
   </body>
 </html>

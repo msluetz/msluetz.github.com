@@ -83,11 +83,21 @@ body {
 	width:960px;
 	position:relative;
 	font-family:helvetica;
+	font-size:16px;
 	}
+	
+header {
+	position:absolute;
+	top:30px;
+	right:500px;
+	width:200px;
+	}
+
 	
 #main-nav {
 	position:absolute;
 	top:200px;
+	right:500px;
 	}
 	
 #main-nav ul li a{
@@ -95,3 +105,21 @@ body {
 	text-decoration:none;
 	color:#1a1a1a;
 	}
+	
+
+  body { width:300px; marging: 0 auto; color:gray;}
+
+  p { padding-top:7px;}
+
+  h3 { 
+    margin-top:30px;
+    background-color:#dddddd;
+    padding:3px;
+    line-height:1.2em;
+}
+  h3 a { 
+    text-decoration:none;
+    color:gray;
+    font-weight:bold
+  }
+
