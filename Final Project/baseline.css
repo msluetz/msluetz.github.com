@@ -115,7 +115,7 @@ img {
 	
 section {
 	position:absolute;
-	top:100px;
+	top:150px;
 	right:40px;
 	width:700px;
 	}
@@ -132,4 +132,9 @@ section {
     color:gray;
     font-weight:bold
   }
+  
+p {
+	width:20%;
+	padding-top:20px;
+	}
 
