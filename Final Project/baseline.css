@@ -109,13 +109,15 @@ header {
 img {
 	float:right;
 	padding:10px;
-	width:300px;
+	width:700px;
 
 	}
 	
 section {
 	position:absolute;
 	top:100px;
+	right:40px;
+	width:700px;
 	}
 	
 
