@@ -187,6 +187,16 @@ h5 {
 h6 {
 	padding-top:3px;
 	}
+	
+h6 a {
+	text-decoration:none;
+	color:#37af9f;
+	}
+	
+h6 a:hover {
+	color:#b9cd4c;
+	}
+
 p {
 	width:20%;
 	padding-top:20px;
