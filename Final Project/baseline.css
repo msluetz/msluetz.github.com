@@ -89,15 +89,15 @@ body {
 header {
 	position:absolute;
 	top:30px;
-	right:500px;
+	right:800px;
 	width:200px;
 	}
 
 	
 #main-nav {
 	position:absolute;
-	top:200px;
-	right:500px;
+	top:100px;
+	right:800px;
 	}
 	
 #main-nav ul li a{
@@ -106,14 +106,21 @@ header {
 	color:#1a1a1a;
 	}
 	
+img {
+	float:right;
+	padding:10px;
 
-  body { width:300px; marging: 0 auto; color:gray;}
-
-  p { padding-top:7px;}
+	}
+	
+section {
+	position:absolute;
+	top:100px;
+	}
+	
 
   h3 { 
     margin-top:30px;
-    background-color:#dddddd;
+
     padding:3px;
     line-height:1.2em;
 }
